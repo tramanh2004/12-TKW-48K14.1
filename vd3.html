@@ -1,37 +1,10 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thẻ A Trang Chủ</title>
-    <style>
-        .tooltip {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            border: 1px solid #ccc;
-            padding: 5px;
-            z-index: 1;
-        }
-        a:hover + .tooltip {
-            display: block;
-        }
-    </style>
+   <h2>XIN CHÀO</h2>
 </head>
 <body>
-
-    <a href="index.html" id="homeLink">Trang Chủ</a>
-    <div class="tooltip">Đi tới trang chủ</div>
-
-    <script>
-        const link = document.getElementById('homeLink');
-        const tooltip = document.querySelector('.tooltip');
-
-        link.addEventListener('mouseover', function(event) {
-            tooltip.style.left = event.pageX + 'px';
-            tooltip.style.top = event.pageY + 'px';
-        });
-    </script>
-
+   <P>Đây là hình ảnh minh họa: </P>
+   <img src="tramanh.png" width="500" height="400">
 </body>
 </html>
